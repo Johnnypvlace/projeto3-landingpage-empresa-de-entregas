@@ -10,6 +10,10 @@ html,body{
     background-color: #CDCDCD;
 }
 
+:root{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container{
     width: 100%;
     max-width: 1280px;
@@ -21,15 +25,15 @@ html,body{
 }
 
 header{
-    background-color: #0062B5;
-    padding: 1px 0;
+    background-color: #BB281E;
+    padding: 0;
 }
 
 .logo-1{
     background-image: url(../images/logo-1.png);
     float: left;
-    width: 630px;
-    height: 130px;
+    width: 400px;
+    height: 120px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     /*background-color: purple;
@@ -38,15 +42,51 @@ header{
 
 .logo-2{
     background-image: url(../images/logo-2.png);
-    float: right;
-    width: 180px;
+    float: left;
+    width: 140px;
     height:120px;
-    margin-top: 10px;
     background-size: 100% auto;
     background-repeat: no-repeat;
     /*background-color: green;
     opacity: 30%;*/
 }
+
+.logo-3{
+    background-image: url(../images/logo-3.png);
+    float: right;
+    width: 140px;
+    height:120px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /*background-color: green;
+    opacity: 30%;*/
+}
+/*
+.menu, ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9e2a22;
+}
+
+.menu, li {
+    float: left;
+}
+
+.menu, li a {
+    margin-top: 16px;
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu, li a:hover {
+    background-position: center;
+    background-color: #9e2a22;
+}
+*/
 
 section.cover-form{
     width: 100%;
@@ -54,14 +94,68 @@ section.cover-form{
 }
 
 .bg{
-    background-image: url(../images/fotobanner.jpg);
+    background-image: url(../images/foto_banner.jpg);
     height: 700px;
     background-size: cover;
     background-position: center;
-    filter: opacity(70%);
+    /*filter: opacity(70%);*/
 }
 
+.form-container{
+	float: right;
+	margin-right: 40px;
+	width: 400px;
+	height: 110%;
+	position: relative;
+	top:-2%;
+	background-color: white;
+    box-shadow: 1px 1px 2px 1px rgb(180, 180, 180)
+}
 
+.form-container h2{
+	font-weight: normal;
+	padding:25px 15px;
+	color: white;
+	font-size: 25px;
+	background-color: #9e2a22;
+}
+
+.form-container form{
+	margin-top:5px;
+	padding:15px;
+}
+
+.form-container form p{
+	font-size: 14px;
+	color: #525252;
+}
+
+.form-wraper:not(:first-child){
+	margin-top:7px;
+}
+
+.form-wraper:last-child{
+	margin-top:7px;
+}
+
+.form-container form input[type=text]{
+	width: 100%;
+	border:1px solid #ccc;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 10px;
+}
+
+.form-container form input[type=submit]{
+	background-color: #9e2a22;
+	text-transform: uppercase;
+	color: white;
+	width: 100%;
+	font-size: 25px;
+	height: 50px;
+	cursor: pointer;
+	border:0;
+}
 
 
 @media screen and (max-width: 510px){
@@ -71,7 +165,7 @@ section.cover-form{
     }
     
     
-    .logo-1,.logo-2{
+    .logo-1,.logo-2,{
         margin-top: 10px;
         display: inline-block;
         float: none;
