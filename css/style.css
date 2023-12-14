@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 html,body{
     height: 100%;
+    background-color: #CDCDCD;
 }
 
 .container{
@@ -24,7 +26,7 @@ header{
 }
 
 .logo-1{
-    background-image: url(../images/logopequena.png);
+    background-image: url(../images/logo-1.png);
     float: left;
     width: 630px;
     height: 130px;
@@ -35,7 +37,7 @@ header{
 }
 
 .logo-2{
-    background-image: url(../images/mini_caminhao.png);
+    background-image: url(../images/logo-2.png);
     float: right;
     width: 180px;
     height:120px;
@@ -45,6 +47,22 @@ header{
     /*background-color: green;
     opacity: 30%;*/
 }
+
+section.cover-form{
+    width: 100%;
+    padding: 0 2%;
+}
+
+.bg{
+    background-image: url(../images/fotobanner.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(70%);
+}
+
+
+
 
 @media screen and (max-width: 510px){
 
