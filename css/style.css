@@ -101,6 +101,14 @@ section.cover-form{
     /*filter: opacity(70%);*/
 }
 
+.botao{
+    background-image: url(../images/botao.png);
+    float: left;
+    width: 100px;
+    height:100px;
+    background-size: 100% auto;
+}
+
 .form-container{
 	float: right;
 	margin-right: 40px;
@@ -109,7 +117,7 @@ section.cover-form{
 	position: relative;
 	top:-2%;
 	background-color: white;
-    box-shadow: 1px 1px 2px 1px rgb(180, 180, 180)
+    box-shadow: 1px 1px 1px 2px rgb(180, 180, 180)
 }
 
 .form-container h2{
@@ -117,7 +125,7 @@ section.cover-form{
 	padding:25px 15px;
 	color: white;
 	font-size: 25px;
-	background-color: #9e2a22;
+	background-color: #b62c22;
 }
 
 .form-container form{
@@ -147,7 +155,7 @@ section.cover-form{
 }
 
 .form-container form input[type=submit]{
-	background-color: #9e2a22;
+	background-color: #b62c22;
 	text-transform: uppercase;
 	color: white;
 	width: 100%;
@@ -155,6 +163,19 @@ section.cover-form{
 	height: 50px;
 	cursor: pointer;
 	border:0;
+}
+
+.w3review{
+    background: #c5c5c5;
+}
+
+.mini{
+    display:block;
+    width: 100%;
+    max-width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #BB281E;
 }
 
 
