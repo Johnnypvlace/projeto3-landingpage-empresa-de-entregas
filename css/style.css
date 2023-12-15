@@ -117,6 +117,7 @@ section.cover-form{
 	position: relative;
 	top:-2%;
 	background-color: white;
+    opacity: 95%;
     box-shadow: 1px 1px 1px 2px rgb(180, 180, 180)
 }
 
