@@ -184,11 +184,11 @@ section.chamada-1 {
 
 section.chamada-1 .container {
     padding: 62px 0;
-    background-color: #BB281E;
+    background-color: #b62c22;
 }
 
 section.chamada-1 .container .titulo-1 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -198,10 +198,83 @@ section.chamada-1 h2 {
     max-width: 1200px;
     display: inline-block;
     color: white;
-    font-size: 18   px;
+    font-size: 18px;
     font-weight: lighter;
 }
 
+.flex-mosaico{
+    display: flex;
+}
+
+.foto{
+    margin-top: -70px;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.item2-foto{
+    margin-top: -70px;
+    width: 70%;
+    padding: 100px;
+    background-color: #BB281E;
+    color: white;
+    font-size: 25px;
+    border-radius:0% 0% 50px;
+    opacity: 95%;
+}
+
+.foto_0{
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.item2-foto_0{
+    width: 70%;
+    padding: 100px;
+    background-color: #BB281E;
+    color: white;
+    font-size: 25px;
+    border-radius:50px 0% 0% 0%;
+    opacity: 95%;
+}
+
+.foto_1{
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.item2-foto_1{
+    width: 70%;
+    padding: 100px;
+    background-color: #BB281E;
+    color: white;
+    font-size: 25px;
+    border-radius:0% 0% 50px;
+    opacity: 95%;
+}
+
+.foto_2{
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.item2-foto_2{
+    width: 70%;
+    padding: 100px;
+    background-color: #BB281E;
+    color: white;
+    font-size: 25px;
+    border-radius:50px 0% 0% 0%;
+    opacity: 95%;
+}
 
 @media screen and (max-width: 960px) {
     .bg {
@@ -228,24 +301,32 @@ section.chamada-1 h2 {
 @media screen and (max-width: 1027px) {
 
     .botao {
-        display: none;
+        /*display: none;*/
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-repeat: no-repeat;
+        margin-left: -25px;
+        left: 50%;
+        top:80%;
+        background-size: 100% 100%;
     }
 }
 
-    @media screen and (max-width: 510px) {
+@media screen and (max-width: 698px){
 
-        header {
-            text-align: center;
+
+    .logo-3{
+            display: none;
         }
+}
+
+    @media screen and (max-width: 558px){
 
 
-        .logo-1,
-        .logo-2,
-        {
-        margin-top: 10px;
-        display: inline-block;
-        float: none;
-    }
-
-
+        .logo-2{
+            margin: 5px;
+            width: 120px;
+            height: 100px;
+         }   
 }
