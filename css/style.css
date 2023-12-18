@@ -211,7 +211,7 @@ section.chamada-1 h2 {
     background-position: center;
     background-size: cover;
     height: 350px;
-    width: 100%;
+    width: 79%;
 }
 
 .item2-foto{
@@ -221,7 +221,6 @@ section.chamada-1 h2 {
     background-color: #BB281E;
     color: white;
     font-size: 25px;
-    border-radius:0% 0% 50px;
     opacity: 95%;
 }
 
@@ -229,7 +228,7 @@ section.chamada-1 h2 {
     background-position: center;
     background-size: cover;
     height: 350px;
-    width: 100%;
+    width: 79%;
 }
 
 .item2-foto_0{
@@ -238,7 +237,6 @@ section.chamada-1 h2 {
     background-color: #BB281E;
     color: white;
     font-size: 25px;
-    border-radius:50px 0% 0% 0%;
     opacity: 95%;
 }
 
@@ -246,7 +244,7 @@ section.chamada-1 h2 {
     background-position: center;
     background-size: cover;
     height: 350px;
-    width: 100%;
+    width: 79%;
 }
 
 .item2-foto_1{
@@ -255,7 +253,6 @@ section.chamada-1 h2 {
     background-color: #BB281E;
     color: white;
     font-size: 25px;
-    border-radius:0% 0% 50px;
     opacity: 95%;
 }
 
@@ -263,7 +260,7 @@ section.chamada-1 h2 {
     background-position: center;
     background-size: cover;
     height: 350px;
-    width: 100%;
+    width: 79%;
 }
 
 .item2-foto_2{
@@ -272,9 +269,64 @@ section.chamada-1 h2 {
     background-color: #BB281E;
     color: white;
     font-size: 25px;
-    border-radius:50px 0% 0% 0%;
     opacity: 95%;
 }
+
+section.chamada-2 {
+    width: 100%;
+    position: relative;
+    top: -70px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+section.chamada-2 .container {
+    padding: 62px 0;
+    background-color: #b62c22;
+}
+
+section.chamada-2 .container .titulo-2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section.chamada-2 h2 {
+    width: 96%;
+    max-width: 1200px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.footer{
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b62c22;
+}
+
+.footer img{
+    background-position: center;
+    background-size: cover;
+    width: 380px;
+    height: 100px;
+
+}
+
+.footer .minilogofooter img{
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 140px;
+    background-size: 100% auto;
+
+}
+
+
 
 @media screen and (max-width: 960px) {
     .bg {
@@ -330,3 +382,66 @@ section.chamada-1 h2 {
             height: 100px;
          }   
 }
+
+@media screen and (max-width: 960px){
+
+
+    .foto{
+        margin-top: -110px;
+    }
+}
+
+
+@media screen and (max-width: 1285px){
+
+    .flex-mosaico{
+        display: block;
+    }
+
+    .foto{
+        height: 800px;
+        width: 100%;
+    }
+
+    .item2-foto{
+        margin: 2px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto_0{
+        height: 800px;
+        width: 100%;
+    }
+
+    .item2-foto_0{
+        margin: 1px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto_1{
+        margin: 1px;
+        height: 800px;
+        width: 100%;
+    }
+
+    .item2-foto_1{
+        margin: 1px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto_2{
+        height: 800px;
+        width: 100%;
+    }
+
+    .item2-foto_2{
+        margin: 1px;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
